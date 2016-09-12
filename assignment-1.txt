@@ -1,0 +1,29 @@
+#Assignment 1- Part-1
+a="Pluto"
+print a[:1]
+print a[:2]
+print a[:3]
+print a[:4]
+print a[:5]
+print a[:4]
+print a[:3]
+print a[:2]
+print a[:1]
+
+#Assignment 1- Part-2
+c="pluto"
+print c[4:3:-1]
+print c[4:2:-1]
+print c[4:1:-1]
+print c[4:0:-1]
+print c[::-1]
+print c[4:0:-1]
+print c[4:1:-1]
+print c[4:2:-1]
+print c[4:3:-1]
+
+#Assignment-1 Calculate force
+m=input("Enter the mass:")
+a=input("Enter the acceleration:")
+Force=m*a
+print 'Force is:',Force
